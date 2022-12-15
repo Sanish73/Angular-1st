@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'WebApplicationTraining';
+  name = 'WebApplicationTraining';
+  constructor(){
+    setTimeout(() => {
+      this.name = "Sanish Thapa"
+    }, 2000);
+  }
 }
