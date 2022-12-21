@@ -1,14 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
+import { TodoComponent } from './MyComponent/todo/todo.component';
+
 
 
 const routes: Routes = [
 
-  // {
-  //   path:'about',
-  //   component:AboutComponent 
-  // },
+ 
   // {
   //   path:'achivements',
   //   component:AchivementsComponent
@@ -25,10 +24,10 @@ const routes: Routes = [
   //   path:'photo-gallery',
   //   component:PhotoGalleryComponent
   // },
-  // {
-  //   path:'services',
-  //   component:ServicesComponent
-  // }
+  {
+    path:'MyComponent/todo',
+    component:TodoComponent
+  }
 ];
 
 @NgModule({
