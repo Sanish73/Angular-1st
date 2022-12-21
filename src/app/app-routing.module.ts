@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { TodoComponent } from './MyComponent/todo/todo.component';
+import { SanishComponent } from './sanish/sanish.component';
 
 
 
@@ -20,10 +21,10 @@ const routes: Routes = [
   //   path:'home',
   //   component:HomeComponent
   // },
-  // {
-  //   path:'photo-gallery',
-  //   component:PhotoGalleryComponent
-  // },
+  {
+    path:'sanish',
+    component:SanishComponent
+  },
   {
     path:'MyComponent/todo',
     component:TodoComponent

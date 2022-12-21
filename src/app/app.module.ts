@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TodoComponent } from './MyComponent/todo/todo.component';
+import { SanishComponent } from './sanish/sanish.component';
 
 @NgModule({
   declarations: [
    
   
-    TodoComponent
+    TodoComponent,
+           SanishComponent
   ],
   imports: [
     BrowserModule,
