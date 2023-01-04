@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 
-import { TodoComponent } from './MyComponent/todo/todo.component';
+
 import { SanishComponent } from './sanish/sanish.component';
 
 
@@ -26,9 +27,10 @@ const routes: Routes = [
     component:SanishComponent
   },
   {
-    path:'MyComponent/todo',
-    component:TodoComponent
+    path:'home',
+    component:HomeComponent
   }
+  
 ];
 
 @NgModule({
